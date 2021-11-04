@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Path of Paper Roll 20 Random Item Generator Extension",
+    "version": "1.0",
+
+    "description": "Adds a button for random item rolls according to the path of paper rule book",
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "ravensouls@web.de"
+        }
+      }
+    ,
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.app.roll20.net/editor*"],
+            "js": ["randomItem.js"]
+        }
+    ]
+}
