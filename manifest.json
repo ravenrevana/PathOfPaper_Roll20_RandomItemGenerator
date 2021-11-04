@@ -3,7 +3,8 @@
     "name": "Path of Paper Roll 20 Random Item Generator Extension",
     "version": "1.0",
 
-    "description": "Adds a button for random item rolls according to the path of paper rule book",
+    "description": "Adds a button and multiple drop down menus for random item rolls according to the path of paper rule book",
+    "homepage_url": "https://github.com/ravenrevana/PathOfPaper_Roll20_RandomItemGenerator",
 
     "browser_specific_settings": {
         "gecko": {
