@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Path of Paper Roll 20 Random Item Generator",
-    "version": "1.2",
+    "version": "1.3",
 
     "description": "Adds a button and multiple drop down menus for random item rolls according to the path of paper rule book",
     "homepage_url": "https://github.com/ravenrevana/PathOfPaper_Roll20_RandomItemGenerator",
