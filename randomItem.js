@@ -13,6 +13,13 @@ toolBarTabSelect.appendChild(randomOptionDiv);
 //randomOptionDiv.style.backgroundColor = "black";
 randomOptionDiv.style.width = "220px";
 
+
+var textChatDiv = document.getElementById("textchat");
+
+textChatDiv.style.height = parseInt( textChatDiv.style.height, 10) - 145 + "px";
+
+window.addEventListener('resize', resizeChat);
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////// DROP DOWN ITEM LIST /////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -896,4 +903,9 @@ function overrideRingType() {
             ringType = 4;
             break;  
     }
+}
+
+function resizeChat() {
+    
+    textChatDiv.style.height = parseInt( textChatDiv.style.height, 10) - 145 + "px";
 }
