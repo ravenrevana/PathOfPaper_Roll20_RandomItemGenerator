@@ -558,8 +558,14 @@ function getRarityType() {
     console.log("Roll rarity type: ", rarityType); 
 
     if(rarityType == 10){
-        item += "[Signature]";
-        console.log("[Signature]");
+        var signatureRoll = getRandomInt(10);
+        if(signatureRoll <= 5) {
+            item += "[Rare]";
+            console.log("[Rare]");
+        } else {
+            item += "[Signature]";
+            console.log("[Signature]");
+        }
     } else if(rarityType < 8) {
         item += "[Magic]";
         console.log("[Magic]");
