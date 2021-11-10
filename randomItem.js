@@ -13,7 +13,6 @@ toolBarTabSelect.appendChild(randomOptionDiv);
 //randomOptionDiv.style.backgroundColor = "black";
 randomOptionDiv.style.width = "220px";
 
-
 var textChatDiv = document.getElementById("textchat");
 
 textChatDiv.style.height = parseInt( textChatDiv.style.height, 10) - 145 + "px";
@@ -521,7 +520,7 @@ function getModifierType() {
             case 5:
             case 7:
             case 9:
-            case 13:
+            case 14:
                 getWeaponOnlyModifierType();
                 break;
         }
@@ -542,7 +541,7 @@ function getModifierType() {
             case 5:
             case 7:
             case 9:
-            case 13:
+            case 14:
                 getWeaponOnlyModifierType();
                 getWeaponOnlyModifierType();
                 break;
@@ -559,6 +558,7 @@ function getRarityType() {
 
     if(rarityType == 10){
         var signatureRoll = getRandomInt(10);
+        console.log("Roll signature chance: ", signatureRoll); 
         if(signatureRoll <= 5) {
             item += "[Rare]";
             console.log("[Rare]");
