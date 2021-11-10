@@ -1,6 +1,6 @@
 # PathOfPaper_Roll20_RandomItemGenerator
 
-This Firefox extension adds a button and multiple drop down menus to Roll 20 that allow the generation of random items according to the Unofficial Path of Paper rulebook alpha version 1.82 https://docs.google.com/document/d/1fhEGY_BiXG2KnF4dxSFxllqVffYg1nKtOm_lmPb0xUU/edit by Richard West ‘Angryaa’.
+This Firefox extension adds a button and multiple drop down menus to Roll 20 that allow the generation of random items according to the Unofficial Path of Paper rulebook alpha version 1.82 https://docs.google.com/document/d/1fhEGY_BiXG2KnF4dxSFxllqVffYg1nKtOm_lmPb0xUU/edit by Richard West ‘Angryaa’. Visit https://addons.mozilla.org/en-US/firefox/addon/pathofpaper-roll20-item-gen/ for the newest version of the extension.
 
 ### Item type drop down menu
 
