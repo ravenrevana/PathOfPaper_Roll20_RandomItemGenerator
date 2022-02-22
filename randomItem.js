@@ -213,7 +213,7 @@ randomItemButton.onclick = function() {
 
 function getSkillType() {
 
-    var skillType = getRandomInt(14); 
+    var skillType = getRandomInt(18); 
 
     console.log("Roll skill type: ", skillType);
 
@@ -225,40 +225,52 @@ function getSkillType() {
             skillType = "Endurance"
             break;
         case 3:
-            skillType = "Survival"
+            skillType = "Persistance"
             break;
         case 4:
-            skillType = "Stealth"
+            skillType = "Survival"
             break;
         case 5:
-            skillType = "Soul manipulation"
-            break;
-        case 6:
-            skillType = "Manuever"
-            break;
-        case 7:
             skillType = "Initiative"
             break;
+        case 6:
+            skillType = "Lockpicking"
+            break;
+        case 7:
+            skillType = "Maneuver"
+            break;
         case 8:
-            skillType = "Perception"
+            skillType = "Sleight of Hand"
             break;
         case 9:
-            skillType = "Lore"
+            skillType = "Stealth"
             break;
         case 10:
-            skillType = "Soulcraft"
+            skillType = "Insight"
             break;
         case 11:
-            skillType = "Negotiation"
+            skillType = "Investigation"
             break;
         case 12:
-            skillType = "Charm"
+            skillType = "Lore"
             break;
         case 13:
-            skillType = "Intimidate"
+            skillType = "Perception"
             break;
         case 14:
+            skillType = "Thaumaturgy"
+            break;
+        case 15:
             skillType = "Artiface"
+            break;
+        case 16:
+            skillType = "Deception"
+            break;
+        case 17:
+            skillType = "Intimidation"
+            break;
+        case 18:
+            skillType = "Persuasion"
             break;
     }
 
